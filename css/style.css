@@ -9,7 +9,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -606,6 +606,15 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 20px;
+}
+.texteBoîteP{
+  margin-top: -17px;
+  margin-bottom: 62px;
+  margin-left: -6px;
+}
+.textePrix{
+  margin-top: -4px;
+  margin-bottom: 70px;
 }
 
 .boîte-hebergements {
