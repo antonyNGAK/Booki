@@ -622,7 +622,6 @@ body {
   }
 
   .activity-block {
-    flex-direction: center;
     height: auto;
 
   }
@@ -679,7 +678,6 @@ body {
   }
 
   .footer {
-    flex-direction: center;
     align-items: flex-start;
     width: 100%;
     height: auto;
