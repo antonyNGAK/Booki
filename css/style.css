@@ -39,7 +39,6 @@ main {
  */
 
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -527,7 +526,7 @@ body {
 }
 
 .filtre-texte-icon {
-  border: 2px solid #f2f2f2;
+  border: 2px solid #d8d6d6;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
@@ -613,8 +612,13 @@ body {
   margin-left: -6px;
 }
 .textePrix{
-  margin-top: -4px;
-  margin-bottom: 70px;
+  margin-top: -13px;
+  margin-bottom: 67px;
+}
+
+.texteBoîteH{
+  margin-bottom: 2%;
+  margin-top: 3%;
 }
 
 .boîte-hebergements {
@@ -716,8 +720,8 @@ body {
 }
 
 .spécifiqueboîtesP {
-  width: 60%;
-  padding-left: 5%;
+  width: 73%;
+  padding-left: 8%;
 }
 
 .image1 {
@@ -1247,5 +1251,28 @@ body {
   .logo {
     margin-left: 110px;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .tel-E{
+    width: 165px;
+    margin-right: 1px;
+  }
+  .tel-F{
+    width: 141px;
+    margin-right: 1px;
+  }
+  .filtre-texte-icon{
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  .tel-R{
+    width: 165px;
+    margin-right: 1px;
+  }
+  .tel-N{
+    width: 143px;
   }
 }
